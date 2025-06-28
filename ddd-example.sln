@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Project1\src\Application\Application.csproj", "{B836C8EA-5036-4337-80F0-DC0E44304B74}"
 EndProject
@@ -11,13 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Project1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Project1\src\Web\Web.csproj", "{69C8EF46-1DC9-47AA-B8E1-BFCEB5CE2A54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.FunctionalTests", "Project1\tests\Application.FunctionalTests\Application.FunctionalTests.csproj", "{F50EDC22-59E8-4F2C-97BC-A57C77038212}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "Project1\tests\Application.UnitTests\Application.UnitTests.csproj", "{7F59B2FA-BEBD-4DB8-BE09-5CFF361C37F1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "Project1\tests\Domain.UnitTests\Domain.UnitTests.csproj", "{66CB40BF-5EF6-42CB-A093-4ED8AEF2231A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.IntegrationTests", "Project1\tests\Infrastructure.IntegrationTests\Infrastructure.IntegrationTests.csproj", "{57AF27FA-53E8-46E3-AC0E-D0F908A2ECAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,22 +35,10 @@ Global
 		{69C8EF46-1DC9-47AA-B8E1-BFCEB5CE2A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69C8EF46-1DC9-47AA-B8E1-BFCEB5CE2A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69C8EF46-1DC9-47AA-B8E1-BFCEB5CE2A54}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F50EDC22-59E8-4F2C-97BC-A57C77038212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F50EDC22-59E8-4F2C-97BC-A57C77038212}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F50EDC22-59E8-4F2C-97BC-A57C77038212}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F50EDC22-59E8-4F2C-97BC-A57C77038212}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F59B2FA-BEBD-4DB8-BE09-5CFF361C37F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F59B2FA-BEBD-4DB8-BE09-5CFF361C37F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F59B2FA-BEBD-4DB8-BE09-5CFF361C37F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F59B2FA-BEBD-4DB8-BE09-5CFF361C37F1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66CB40BF-5EF6-42CB-A093-4ED8AEF2231A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66CB40BF-5EF6-42CB-A093-4ED8AEF2231A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66CB40BF-5EF6-42CB-A093-4ED8AEF2231A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66CB40BF-5EF6-42CB-A093-4ED8AEF2231A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57AF27FA-53E8-46E3-AC0E-D0F908A2ECAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57AF27FA-53E8-46E3-AC0E-D0F908A2ECAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57AF27FA-53E8-46E3-AC0E-D0F908A2ECAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57AF27FA-53E8-46E3-AC0E-D0F908A2ECAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
