@@ -1,6 +1,6 @@
 ﻿namespace Project1.Domain.Common;
 
-public class AggregateRoot<T> : Entity<T>, IAggregateRoot
+public abstract class AggregateRoot<T> : Entity<T>, IAggregateRoot
 {
     private readonly List<BaseEvent> _domainEvents = new();
     public IReadOnlyCollection<BaseEvent> DomainEvents => _domainEvents;

@@ -4,7 +4,8 @@ using Project1.Domain.Entities;
 
 namespace Project1.Application.Orders.Commands.PlaceOrder;
 
-internal class PlaceOrderCommandHandler(IApplicationDbContext dbContext) : IRequestHandler<PlaceOrderCommand, Guid>
+internal class PlaceOrderCommandHandler(IApplicationDbContext dbContext)
+    : IRequestHandler<PlaceOrderCommand, Guid>
 {
     public async Task<Guid> Handle(PlaceOrderCommand command, CancellationToken ct)
     {

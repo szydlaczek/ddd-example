@@ -8,7 +8,7 @@ public class AddProductCommandValidator : AbstractValidator<AddProductCommand>
             .WithMessage("Product name cannot be empty");
 
         RuleFor(c => c.Price).GreaterThan(0)
-            .WithMessage("Price cannot be negative");
+            .WithMessage("Price must be greater than zero.");
 
         RuleFor(c => c.Currency)
             .Length(3)
